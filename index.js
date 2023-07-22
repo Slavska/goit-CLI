@@ -1,9 +1,6 @@
 import contactsService from "./contacts.js";
 import { program } from "commander";
 
-// const { Command } = require("commander");
-// const program = new Command();
-
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
